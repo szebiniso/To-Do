@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+    &__item {
+      border: 1px solid gray;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+      position: relative;
+      &__pen {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+      }
+      &__name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+}

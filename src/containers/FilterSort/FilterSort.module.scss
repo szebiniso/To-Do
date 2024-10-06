@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  &__filters {
+    display: flex;
+    gap: 1rem;
+    &__button {
+      background: #888888;
+      color: white;
+      &_primary {
+        background: white;
+      }
+    }
+    &__input {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      width: 300px;
+    }
+  }
+
+  &__button {
+    background: #646cff;
+    color: white;
+  }
+}

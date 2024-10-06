@@ -1,0 +1,35 @@
+.button {
+  background: #646cff;
+  color: #fff;
+  cursor: pointer;
+
+  &_primary {
+    background: #888888;
+    color: #fff;
+  }
+}
+
+.inputContainer {
+  width: 100%;
+  &__label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+
+  &__input {
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    &_error {
+      border: 1px solid coral;
+    }
+  }
+
+  &__error {
+    font-size: 12px;
+    color: coral;
+  }
+}
